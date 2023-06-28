@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
+
+body {
+  background-color: hsla(20, 12%, 95%, 0.952);
+}
+
+.main-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.skills-container {
+  background-color: #fddf59d7;
+  color: #fff;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+.skills-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Concert One", cursive;
+  font-size: 45px;
+}
+.skills-card {
+  border: 1px black solid;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: #000000;
+  background-color: #d8d6d604;
+}
+
+.projects-container {
+  background-color: #caf37fce;
+  color: #fff;
+  padding: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Concert One", cursive;
+  font-size: 45px;
+}
+
+.project-card {
+  background-color: #ffffff00;
+  margin-bottom: 20px;
+  color: #000000;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.server-container {
+  background-color: rgba(133, 176, 206, 0.705);
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.server-card {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.server-card .col-lg-4,
+.server-card .col-lg-8 {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+}
+
+.server-card .card {
+  height: 100%;
+}
+
+.server-card .card-img-top {
+  height: 100%;
+  object-fit: cover;
+}
+.server-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Concert One", cursive;
+  font-size: 45px;
+}
+.descard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.projects-sub {
+  font-family: "Concert One", cursive;
+  font-size: 25px;
+}
+
+.skills-sub {
+  font-family: "Concert One", cursive;
+  font-size: 25px;
+}
+.descard {
+  flex: 1;
+}
+
+.card-img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.navbar-brand {
+  font-family: "Marck Script", cursive;
+  font-size: 36px;
+}
+.nav-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.nav-item:hover {
+  color: #fff;
+}
+.aboutme {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.skills-paragraphs {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.homeserver-paragraphs {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.gitbtn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.rsmbtn:hover {
+  background-color: rgb(57, 255, 50);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(57, 255, 50);
+}
+
+.lkdbtn:hover {
+  background-color: #78a8f1;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(56, 133, 206);
+}
+
+.footer {
+  background-color: #424850;
+}
+@media (max-width: 767.98px) {
+  .skills-card {
+    margin-bottom: 40px;
+  }
+}
+

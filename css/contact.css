@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap");
+
+.leftpart {
+  background-image: url("/imgs/green1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h1,h4,label{
+    color: #ffffff;
+    font-family: Montserrat;
+
+}
+
+
+.navbar-brand {
+  font-family: "Marck Script", cursive;
+  font-size: 36px;
+}
+.nav-item {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.nav-item:hover {
+  color: #fff;
+}
+.gitbtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+  
+  .rsmbtn:hover {
+    background-color: rgb(57, 255, 50);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(57, 255, 50);
+  }
+  
+  .lkdbtn:hover {
+    background-color: #78a8f1;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(56, 133, 206);
+  }
+  
+  .footer {
+    background-color: #424850;
+  }
+
+.sendbtn:hover{
+    background-color: rgb(86, 139, 209);
+}
